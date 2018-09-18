@@ -1,0 +1,86 @@
+﻿.panel-body {
+    /*background-color: #f00;*/
+    color: #000000;
+    font-size: 12px;
+}
+
+    .panel-title {
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        text-shadow: 0 -1px rgba(0,0,0,0.3);
+    }
+
+    .tree-title {
+        font-size: 20px;
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: top;
+        white-space: nowrap;
+        padding: 0 3px;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .tree-expanded {
+        background: url('../Scripts/easyui/themes/default/images/tree_icons_max.png') no-repeat -36px 0px;
+    }
+
+    .tree-expanded-hover {
+        background: url('../Scripts/easyui/themes/default/images/tree_icons_max.png') no-repeat -100px 0px;
+    }
+
+    .tree-collapsed {
+        background: url('../Scripts/easyui/themes/default/images/tree_icons_max.png') no-repeat 0px 0px;
+        padding: 5px;
+    }
+
+    .tree-collapsed-hover {
+        background: url('../Scripts/easyui/themes/default/images/tree_icons_max.png') no-repeat -64px 0px;
+    }
+
+    .tree-file {
+        background: url('../Scripts/easyui/themes/default/images/tree_icons_max.png') no-repeat -480px 0;
+    }
+
+    .tree-folder-open {
+        background: url('../Scripts/easyui/themes/default/images/tree_icons_max.png') no-repeat -448px 0;
+    }
+
+    .tree-folder {
+        background: url('../Scripts/easyui/themes/default/images/tree_icons_max.png') no-repeat -416px 0;
+    }
+
+    .tree-expanded, .tree-collapsed, .tree-folder, .tree-file, .tree-checkbox, .tree-indent {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        vertical-align: top;
+        overflow: hidden;
+    }
+@media screen and (max-width:500px) {
+    .panel.combo-p {
+        overflow: scroll !important;
+        width: 250px !important;
+    }
+    .combo-panel {
+        width:250px;
+    }
+    .combo-panel .tree {
+        width: 1000px;
+    }
+
+}
+.panel.combo-p .tree-title {
+   font-size:12px;
+}
+    .tree-node {
+        margin: 5px 0;
+        height: 32px;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+
+    .filtrClass {
+        height: 24px;
+    }

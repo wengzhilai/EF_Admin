@@ -1,0 +1,80 @@
+﻿/*导航条     控制背景色*/
+.navbar-default {
+    background-color: #818181;
+}
+
+/*一级导航  按钮a标记 控制鼠标经过色*/
+#bs-example-navbar-collapse-1 > .l-btn-plain:hover {
+    background: #686767;
+    color: #fff;
+}
+/*一级导航  按钮a标记  进入下拉菜单中是a标记样式*/
+#bs-example-navbar-collapse-1 > .m-btn-plain-active {
+    background: #686767;
+    color: #fff;
+}
+/*子级菜单 鼠标经过样式*/
+#mainbody > .menu > .menu-active {
+    border-color: none;
+    color: #fff;
+    background: #686767;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+/*左侧菜单颜色*/
+#left-menu-tab .btn-link {
+    color: #818181;
+}
+    /*左侧菜单颜色*/
+    #left-menu-tab .btn-link:hover {
+        color: #686767;
+    }
+/*左侧菜单颜色鼠标经过色*/
+#ulitem > li > a:hover {
+    color: #686767;
+}
+/*左侧菜单颜色鼠标经过色*/
+.content-center-menu > a {
+    color: #818181;
+}
+    /*左侧菜单颜色鼠标经过色*/
+    .content-center-menu > a:hover {
+        color: #686767;
+    }
+/*最小化按钮颜色*/
+#content-left > .btn-link {
+    color: #818181;
+}
+    /*最小化按钮颜色*/
+    #content-left > .btn-link:hover {
+        color: #686767;
+    }
+/*密码 帮助 退出  颜色*/
+#btn-top-right > .btn-link {
+    color: #818181;
+}
+    /*密码 帮助 退出  颜色*/
+    #btn-top-right > .btn-link:hover {
+        color: #686767;
+    }
+/*底端  字体颜色*/
+#main-footer > table td > a {
+    text-decoration: none;
+    color: #818181;
+}
+    /*底端  字体颜色*/
+    #main-footer > table td > a:hover {
+        text-decoration: none;
+        color: #686767;
+    }
+
+#mytab .tabs li a.tabs-inner {
+    color: #0E2D5F;
+    background: url(img/black.png) repeat-x;
+}
+
+#mytab .tabs li.tabs-selected a.tabs-inner {
+    background: url(img/blackactive.png) repeat-x;
+}

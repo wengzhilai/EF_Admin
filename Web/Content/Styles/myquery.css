@@ -1,0 +1,60 @@
+﻿
+
+#querytoolbar {
+    height: auto;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    padding: 0px;
+    background: none;
+}
+
+    #querytoolbar > .querytoolbar-header {
+        background: #FBFBFB;
+    }
+
+        #querytoolbar > .querytoolbar-header > .btn-group > .btn-default {
+            /*background: none;*/
+            /*border: 0;*/
+        }
+
+            #querytoolbar > .querytoolbar-header > .btn-group > .btn-default:hover {
+                /*background: #d8d7d7;*/
+                /*border: 0;*/
+            }
+
+#querysearch {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    min-height: 1px;
+    display: none;
+    background: -webkit-linear-gradient(#e9f2fb,#fff);
+    background: linear-gradient(#e9f2fb,#fff);
+    background: -moz-linear-gradient(#e9f2fb,#fff);
+    padding-bottom:5px;
+}
+
+    #querysearch > li {
+        float: left;
+        width: 280px;
+        height: 30px;
+        text-align: right;
+        margin-top: 5px;
+    }
+
+        #querysearch > li:first-child {
+            background: -webkit-linear-gradient(#D3DCE5,#e9f2fb);
+            background: linear-gradient(#D3DCE5,#e9f2fb);
+            background: -moz-linear-gradient(#D3DCE5,#e9f2fb);
+        }
+
+        #querysearch > li > .form-inline > .form-group > .input-sm {
+            padding: 2px 5px;
+        }
+
+.datagrid-wrap, .panel-body, .panel-body-noheader {
+    border: 0;
+    padding: 1px;
+}
+

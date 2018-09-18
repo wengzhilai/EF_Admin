@@ -1,0 +1,135 @@
+﻿body {
+    border: 0;
+    margin: 0;
+    background-color: #F2F0F3;
+    font-size: 12px;
+    color: #aaa;
+}
+/*顶端通知*/
+.top {
+    height: 22px;
+    padding: 5px 0 5px 150px;
+    width: 100%;
+}
+/*中间内容背景*/
+.content {
+    height: 379px;
+    width: 100%;
+    margin-top: 100px;
+    background: url(../Content/Styles/Images/login_bg.gif) repeat-x 0 101px;
+}
+/*浮动居然内容*/
+.content-center {
+    width: 980px;
+    height: 379px;
+    margin: 0 auto;
+}
+/*左边背景图*/
+.content-center-left {
+    float: left;
+    width: 307px;
+    height: 282px;
+    margin-top: 93px;
+    background: url(../Content/Styles/Images/login.png) no-repeat;
+}
+
+/*右边背景图*/
+.content-center-right {
+    float: right;
+    width: 274px;
+    height: 308px;
+    margin-top: 77px;
+    background: url(../Content/Styles/Images/login.png) no-repeat 0 -281px;
+}
+/*中间背景色*/
+.content-center-center {
+    width: 400px;
+    height: 370px;
+    margin-left: 306px;
+    background-color: #F2F0F3;
+}
+    /*中间上面*/
+    .content-center-center > .content-center-center-top {
+        width: 390px;
+        padding: 2px 5px 3px 5px;
+        height: 74px;
+        position: relative;
+    }
+        /*中间上面logo*/
+        .content-center-center > .content-center-center-top > .content-center-center-top-left {
+            width: 164px;
+            height: 32px;
+            background: url(../Content/Styles/Images/login.png) no-repeat 0 -610px;
+            float: left;
+        }
+        /*中间上面系统名*/
+        .content-center-center > .content-center-center-top > .content-center-center-top-right {
+            width: 204px;
+            height: 35px;
+            float: right;
+            background: url(../Content/Styles/Images/login_text.gif) no-repeat;
+        }
+    /*登陆内容div*/
+    .content-center-center > .content-center-content {
+        width: 400px;
+        height: 300px;
+        border: 1px solid #ECECEB;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        background-color: #F6F7F7;
+    }
+
+/*登陆 table*/
+.tab-login {
+    width: 260px;
+    height: 232px;
+    border: 0;
+    padding: 0;
+    border-collapse: collapse;
+    margin-top: 40px;
+    margin-left: 71px;
+}
+
+    .tab-login td {
+        height: 58px;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+/*底边*/
+.footer {
+    padding-top: 60px;
+    height: 22px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #808080;
+}
+
+    .footer a {
+        text-decoration: none;
+        color: #808080;
+    }
+
+        .footer a:hover {
+            color: #1a98c1;
+        }
+
+.message {
+    width: 100%;
+    padding-top: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #808080;
+    text-align:center;
+}
+
+    .message a {
+        text-decoration: none;
+        color: #1a98c1;
+    }
+
+        .message a:hover {
+            color: #0d7090;
+        }

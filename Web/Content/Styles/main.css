@@ -1,0 +1,342 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.mainlogo {
+    width: 216px;
+    height: 36px;
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+/*===========导航栏  重写   start==========*/
+
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar {
+    position: relative;
+    min-height: 30px;
+    margin-bottom: 0px;
+    border: 0;
+}
+
+.navbar-default .navbar-brand {
+    float: left;
+    padding: 5px 15px;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    cursor: default;
+}
+
+    .navbar-default .navbar-brand:hover {
+        color: white;
+    }
+
+/*导航条     控制背景色*/
+.navbar-default {
+    background-color: #34495E;
+    border-color: none;
+}
+/*一级导航  按钮a标记*/
+#bs-example-navbar-collapse-1 > .l-btn {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+/*一级导航  按钮a标记 控制初始色*/
+#bs-example-navbar-collapse-1 > .l-btn-plain {
+    padding: 0;
+    color: #fff;
+}
+    /*一级导航  按钮a标记 控制鼠标经过色*/
+    #bs-example-navbar-collapse-1 > .l-btn-plain:hover {
+        background: #4F6881;
+        color: #fff;
+        border: 0;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        padding: 0;
+    }
+    /*一级导航  按钮a标记内>span>span 控制按钮大小 字体*/
+    #bs-example-navbar-collapse-1 > .l-btn-plain > .l-btn-left > .l-btn-text {
+        display: inline-block;
+        vertical-align: middle;
+        width: auto;
+        line-height: 25px;
+        font-size: 14px;
+        padding: 0;
+        height: 25px;
+        margin: 5px 10px;
+    }
+    /*一级导航  按钮a标记内>span>span 隐藏右侧下拉三角图标*/
+    #bs-example-navbar-collapse-1 > .l-btn-plain > .l-btn-left > .m-btn-downarrow {
+        display: inline-block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        font-size: 0;
+        right: 0;
+        top: 0;
+        margin-top: 0;
+        display: none;
+    }
+/*一级导航  按钮a标记  进入下拉菜单中是a标记样式*/
+#bs-example-navbar-collapse-1 > .m-btn-plain-active {
+    background: #4F6881;
+    color: #fff;
+    border: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 0;
+}
+/*子级菜单背景色*/
+#mainbody > .menu {
+    background-color: #fff;
+}
+    /*子级菜单 样式*/
+    #mainbody > .menu > .menu-item {
+        position: relative;
+        margin: 0;
+        padding: 1px;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        border-width: 0;
+        border-style: solid;
+    }
+
+    /*子级菜单 鼠标经过样式*/
+    #mainbody > .menu > .menu-active {
+        border-color: none;
+        color: #fff;
+        background: #34495E;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+    }
+    /*子级菜单 文本内容*/
+    #mainbody > .menu > .menu-item > .menu-text {
+        padding-left: 18px;
+    }
+    /*子级菜单  竖线*/
+    #mainbody > .menu > .menu-line {
+        border-left: 0;
+        border-right: 0;
+        display: none;
+    }
+/*左侧菜单颜色*/
+#left-menu-tab .btn-link {
+    color: #178dd6;
+}
+    /*左侧菜单颜色*/
+    #left-menu-tab .btn-link:hover {
+        color: #0069ab;
+    }
+
+.btn-tophideshow {
+    display: block;
+    padding: 5px 10px 5px 5px;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+    .btn-tophideshow:hover {
+        color: #eee;
+    }
+/*===========导航栏  重写   end==========*/
+
+/*===========内容部分=====*/
+/*最左边最小栏*/
+.content-left {
+    width: 21px;
+    background-color: #fefefe;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    border-color: #d9d9d9;
+    float: left;
+}
+/*最左边菜单栏*/
+.content-center {
+    width: 0px;
+    border-right: 5px solid #fff;
+    float: left;
+    display: none;
+}
+/*最右边内容部分*/
+.content-right {
+    width: 100%;
+    background-color: #fff;
+}
+/*左边菜单栏   边框圆角 颜色*/
+#left-menu > .boot-panel, .boot-panel-default {
+    margin: 0;
+    border-color: #d9d9d9;
+    border-radius: 0;
+}
+    /*左边菜单栏  顶部 边框圆角 颜色*/
+    #left-menu > .boot-panel, .boot-panel-default > .boot-panel-heading {
+        padding: 1px 2px;
+        border-bottom: 1px solid #d9d9d9;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+/*右边内容tab  Header 边框颜色 背景色*/
+#tt > .tabs-header {
+    background-color: #fff;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+}
+    /*右边内容tab Header  标记  border 颜色*/
+    #tt > .tabs-header > .tabs-wrap > .tabs > li > .tabs-inner {
+        border-color: #bebcbc;
+    }
+/*右边内容 panel 边框 颜色*/
+#tt > .tabs-panels {
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+}
+/*控制iframe*/
+.myiframeclass {
+            width: 100%;
+            border: 0;
+            padding: 0;
+            margin: 0;
+            overflow: auto;
+            list-style: none;
+            height: 100%;
+            margin-left: 0;
+            margin-top: 0;
+        }
+
+        .panel-body-noborder {
+            overflow: hidden;
+        }
+
+
+
+
+/*==========左侧 同级  菜单  样式  start===========*/
+
+#ulitem {
+    padding: 0 0 0 5px;
+    margin: 0;
+}
+
+    #ulitem > li {
+        list-style: none;
+        width: 145px;
+        height: 26px;
+        padding: 3px 0 3px 20px;
+    }
+
+        #ulitem > li > a {
+            text-decoration: none;
+            color: #818181;
+            font-size: 12px;
+            padding: 0;
+        }
+
+            #ulitem > li > a:hover {
+                color: #0069ab;
+            }
+
+            #ulitem > li > a > span {
+                display: none;
+            }
+
+            #ulitem > li > a:hover > span {
+                display: inline-block;
+            }
+/*左侧菜单颜色鼠标经过色*/
+.content-center-menu > a {
+    color: #178dd6;
+}
+    /*左侧菜单颜色鼠标经过色*/
+    .content-center-menu > a:hover {
+        color: #0069ab;
+    }
+/*最小化按钮颜色*/
+#content-left > .btn-link {
+    color: #178dd6;
+}
+    /*最小化按钮颜色*/
+    #content-left > .btn-link:hover {
+        color: #0069ab;
+    }
+/*==========左侧 同级  菜单  样式  end===========*/
+
+/*==============底部  字体===*/
+/*密码 帮助 退出  颜色*/
+#btn-top-right > .btn-link {
+    color: #178dd6;
+}
+    /*密码 帮助 退出  颜色*/
+    #btn-top-right > .btn-link:hover {
+        color: #0069ab;
+    }
+/*底端  字体颜色*/
+#main-footer > table td > a {
+    text-decoration: none;
+    color: #178dd6;
+}
+    /*底端  字体颜色*/
+    #main-footer > table td > a:hover {
+        text-decoration: none;
+        color: #0069ab;
+    }
+
+
+/*============内容也====tab标记样式============start*/
+#mytab > .tabs-header, .tabs-tool {
+    border-color: #fff;
+    background-color: #fff;
+    padding-top: 0;
+}
+
+/*#mytab .tabs li a.tabs-inner {
+    color: #0E2D5F;
+    background: url(Skin/img/blue.png) repeat-x;
+}
+
+#mytab .tabs li.tabs-selected a.tabs-inner {
+    background: url(Skin/img/blue.png) repeat-x;
+}*/
+#mytab > .tabs-panels {
+    border-color: #d9d9d9;
+}
+
+#mytab > .tabs-header > .tabs-wrap > .tabs {
+    border-color: #d9d9d9;
+}
+
+    #mytab > .tabs-header > .tabs-wrap > .tabs > li > a {
+        border-color: #d9d9d9;
+    }
+
+    #mytab > .tabs-header > .tabs-wrap > .tabs > li.tabs-selected > a {
+        border-bottom-color: #fff;
+    }
+/*============内容也====tab标记样式============end*/
+
+.headBack {
+background-image:url(../Content/Styles/Images/main-topimg.gif)
+}
